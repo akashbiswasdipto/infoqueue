@@ -1,0 +1,76 @@
+@import url(fonts.css);
+
+body{
+    background-image: url('../images/services/backgroundlogin.png');
+    background-position: center;
+    background-size: fill;
+    height: 100%;
+}
+.login{
+    width: 100%;
+    text-align: center;
+    margin-top: 12%;
+    font-family: "Merriweather", serif;
+}
+
+.logo_image{
+    width: 50%;
+    float: left;
+    border-right: 1px solid black;
+}
+
+.login_logo{
+    height: 300px;
+    width: auto;
+}
+
+.login_button{
+    width: 400px;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.submit_button{
+    width: 300px;
+    height: 40px;
+    margin: 10px 0;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.submit_button:hover{
+    background-color: black;
+    color: white;
+    transition-duration: .2s;
+}
+
+
+.login h1{
+    font-size: 30px;
+    color:white;
+}
+
+.login h5{
+    font-size: 14px;
+    margin-right: 20px;
+    color:white;
+}
+.signup_btn{
+    text-decoration: underline;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+.signup_btn:hover{
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    transition-duration: .2s;
+}
